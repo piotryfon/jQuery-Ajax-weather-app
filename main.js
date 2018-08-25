@@ -34,7 +34,7 @@ $(document).ready(function(){
     });
     function showInHtml(data){
         return(    
-        "<p><b>Pogoda:</b> "  + data.weather[0].main + "</p><br/>" +
+        "<p><b>Pogoda:</b>  <img src='http://openweathermap.org/img/w/10d.png'>  " + data.weather[0].main + "</p><br/>" +
         "<p><b>Zachmurzenie:</b> " + data.weather[0].description + "</p><br/>" +  
         "<p><b>Temp:</b> "+ data.main.temp + " &#186</p><br/>" +
         "<p><b>Ciśnienie:</b> " + data.main.pressure + "</p><br/>" +
